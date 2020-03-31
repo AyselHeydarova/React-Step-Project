@@ -17,6 +17,8 @@ class App extends Component {
 
                 <p>Note items will be shown here</p>
 
+                <h4>Some new changes</h4>
+
 
             </>
         );

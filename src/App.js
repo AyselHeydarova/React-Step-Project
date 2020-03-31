@@ -17,7 +17,7 @@ class App extends Component {
 
                 <p>Note items will be shown here</p>
 
-
+                <h1>please work</h1>
             </>
         );
     }

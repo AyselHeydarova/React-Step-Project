@@ -1,0 +1,68 @@
+.container {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.note-title {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.note-text {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.create-btn {
+    background-color: mediumspringgreen;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.colors-container {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.red {
+    background-color: rgb(255, 204, 204);
+    border: 1px solid rgb(255, 102, 102);
+}
+
+.green {
+    background-color: rgb(179, 230, 204);
+    border: 1px solid rgb(64, 191, 125)
+
+}
+
+.blue {
+    background-color: rgb(153, 221, 255);
+    border: 1px solid rgb(0, 170, 255)
+
+}
+
+.yellow {
+    background-color: rgb(255, 255, 204);
+    border: 1px solid rgb(255, 255, 0)
+}

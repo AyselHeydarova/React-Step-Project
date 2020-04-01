@@ -1,0 +1,10 @@
+@mixin actual-page-style{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.actual-page{
+  @include actual-page-style;
+}

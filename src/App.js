@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import NavBar from "./components/NavBar/NavBar";
 
 
 class App extends Component {
@@ -6,18 +7,14 @@ class App extends Component {
 
 
     render() {
-        function showAlert() {
-            alert('Welcome to Step Project!');
-        }
 
-        showAlert();
+
+
         return (
             <>
+                <NavBar/>
                 <h1>React Step Project</h1>
 
-                <p>Note items will be shown here</p>
-
-                <h1>please work</h1>
             </>
         );
     }

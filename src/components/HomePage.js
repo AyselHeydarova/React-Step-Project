@@ -2,7 +2,9 @@
 import React, {Component} from 'react';
 import NoteItem from "./Note-item/note-item";
 import './Actual/actual-page.scss'
+
 class HomePage extends Component {
+
     render() {
         return (
             <div className={"notes-page"}>

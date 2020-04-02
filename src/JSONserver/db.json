@@ -1,7 +1,6 @@
 {
-  "notes":[
+  "notes": [
     {
-
       "place": "actual",
       "title": "Note title 1",
       "text": "Sample text 1",
@@ -9,23 +8,18 @@
       "id": 1
     },
     {
-
       "place": "actual",
-
       "title": "Note title 2",
       "text": "Sample text 2",
       "color": "yellow",
       "id": 2
     },
     {
-
       "place": "actual",
-
       "title": "Note title 3",
       "text": "Sample text 3",
       "color": "green",
       "id": 3
-
     },
     {
       "place": "actual",
@@ -47,7 +41,20 @@
       "text": "Sample text 3",
       "color": "green",
       "id": 6
-
+    },
+    {
+      "title": "Complete create component",
+      "text": "Post request\nsmth else",
+      "color": "green",
+      "id": "326536-605f-cf8f-6eaa-52f0c1fad18",
+      "isCompleted": false
+    },
+    {
+      "title": "Step Project",
+      "text": "complete components",
+      "color": "blue",
+      "id": "28d0c6-276-a01a-41b-5404c335206",
+      "isCompleted": false
     }
   ]
 }

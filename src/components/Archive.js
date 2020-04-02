@@ -5,7 +5,7 @@ const Archive = props => {
     return (
         <div className={"notes-page"}>
             {
-                props.datas.map(item=>item.place==="archive"?<NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>:null)
+                props.datas.map(item=>item.isComplited?<NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>:null)
             }
         </div>
     );

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5342e29-0f7d-4ecc-a152-388df11640b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/.idea/Classwork-Aysel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Advanced Events/JS/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Advanced Events/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Arrays DOM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Arrays DOM/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Coffee Machine/digital.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Coffee Machine/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Coffee Machine/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 03 Flexbox/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 03 Flexbox/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/.idea/Lesson 3 Flexbox- 2nd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/Css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/Img/coding.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/Img/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/Img/javas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 3 Flexbox- 2nd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/.idea/Lesson 4 JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Lesson 4 JS/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Red Circle task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Red Circle task/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/Red Circle task/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/classwork-06 Advanced events, setTimeout, setInterval, localStorage, JS memory model, this, closures/js/part1copied.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork-Aysel/classwork-06 Advanced events, setTimeout, setInterval, localStorage, JS memory model, this, closures/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homeworks-Javascript/javascript/homework1/JS/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homeworks-Javascript/javascript/homework1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Json.Ajax/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Json.Ajax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Json.Ajax/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork-10 practice lesson/src/Utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork-10 practice lesson/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork-10 practice lesson/src/components/LoginForm/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork-10 practice lesson/src/components/LoginForm/LoginFormClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Burger Menu/Burger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Burger Menu/BurgerButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Burger Menu/MenuSystem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Login Form/EmailContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Login Form/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Login Form/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Login Form/SubmitBtn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Mails/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Mails/Email.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Mails/MailList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Mails/NewEmailModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Mails/NewEmailModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Preloader/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Preloader/Preloader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Tabs/TabItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/Tabs/TabsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/UserList/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classwork03/src/components/UserList/UsersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework01/src/components/Modal Windows/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework01/src/components/Modal Windows/ModalWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework01/src/components/Modal Windows/ModalWindow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework01/src/components/Modal Windows/ModalWindowManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework01/src/components/Modal Windows/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-form/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-form/src/components/Items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-form/src/components/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-form/src/components/Layout/Layout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-form/src/components/LoginForm/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-form/src/components/LoginForm/LoginForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-first-react-project/src/Components/Classwork02 VotingSystem/VoteItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-first-react-project/src/Components/Classwork02 VotingSystem/VotingSystem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-first-react-project/src/Components/Timer/TimerButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-first-react-project/src/Components/Timer/timer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-first-react-project/src/Components/Timer/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-first-react-project/src/Tutorial with Mosh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorial-mosh/src/components/Counters.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorial-mosh/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorial-mosh/src/components/counter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../az-md2/classworks/html-css/lesson-03 Flexbox/css/flex-gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../az-md2/classworks/html-css/lesson-03 Flexbox/css/flex-solution.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../az-md2/classworks/html-css/lesson-03 Flexbox/flex-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../az-md2/classworks/html-css/lesson-03 Flexbox/flex-solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../az-md2/classworks/html-css/lesson-03 Flexbox/img/card-1 image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../az-md2/classworks/html-css/lesson-03 Flexbox/img/page_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../step-project-ham/CSS/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../step-project-ham/JS/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../step-project-ham/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-01/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/html_css_homework_homework3_Milan_Holidays.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/img/card-1 image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/img/logo_house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/img/page_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classworks/html-css/lesson-02 Block model, CSS Selectors, colors, positioning/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Zw41PbQiGrmz3h4RV2J03rNIds" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5342e29-0f7d-4ecc-a152-388df11640b5" name="Default Changelist" comment="" />
+      <created>1585736606550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585736606550</updated>
+      <workItem from="1585736608306" duration="248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

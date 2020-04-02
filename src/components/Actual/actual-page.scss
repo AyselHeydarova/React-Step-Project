@@ -1,3 +1,4 @@
+
 @mixin notes-page-style{
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +7,5 @@
 }
 .notes-page{
   @include notes-page-style;
+
 }

@@ -1,22 +1,24 @@
 import React, {Component} from 'react';
 import './actual-page.scss'
 import NoteItem from "../Note-item/note-item";
-class ActualPage extends Component {
-    state={
-        actual:[]
-    };
-    componentDidMount() {
-      fetch("http://localhost:3000/notes").then(item=>item.json()).then(item=>this.setState({actual:item}));
-    };
-    render() {
+
+
+const ActualPage=props=> {
         return (
-            <div className={"actual-page"}>
+            <div className={"notes-page"}>
                 {
-                    this.state.actual.map(item=><NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>)
+                    props.datas.map(item=>item.place==="actual"?<NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>:null)
                 }
             </div>
         );
-    }
 }
 
 export default ActualPage;
+
+
+/*
+{
+                    this.state.actual.map(item=><NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>)
+                }
+ */
+

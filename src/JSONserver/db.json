@@ -1,22 +1,53 @@
 {
   "notes":[
     {
+
+      "place": "actual",
       "title": "Note title 1",
       "text": "Sample text 1",
       "color": "red",
       "id": 1
     },
     {
+
+      "place": "actual",
+
       "title": "Note title 2",
       "text": "Sample text 2",
       "color": "yellow",
       "id": 2
     },
     {
+
+      "place": "actual",
+
       "title": "Note title 3",
       "text": "Sample text 3",
       "color": "green",
       "id": 3
+
+    },
+    {
+      "place": "actual",
+      "title": "Note title 1",
+      "text": "Sample text 1",
+      "color": "red",
+      "id": 4
+    },
+    {
+      "place": "archive",
+      "title": "Note title 2",
+      "text": "Sample text 2",
+      "color": "yellow",
+      "id": 5
+    },
+    {
+      "place": "actual",
+      "title": "Note title 3",
+      "text": "Sample text 3",
+      "color": "green",
+      "id": 6
+
     }
   ]
 }

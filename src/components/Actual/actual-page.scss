@@ -1,10 +1,9 @@
-@mixin actual-page-style{
+@mixin notes-page-style{
   display: flex;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
-  justify-content: space-evenly;
 }
-.actual-page{
-  @include actual-page-style;
+.notes-page{
+  @include notes-page-style;
 }

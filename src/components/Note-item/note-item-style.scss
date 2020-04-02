@@ -5,6 +5,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+  margin: 20px 30px;
 }
 .note-item{
   @include note-item-style;

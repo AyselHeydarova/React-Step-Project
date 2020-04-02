@@ -1,10 +1,13 @@
 import React from 'react';
-
-const Archive = () => {
+import NoteItem from "./Note-item/note-item";
+import './Actual/actual-page.scss'
+const Archive = props => {
     return (
-        <h1>
-            Here are Archive notes!
-        </h1>
+        <div className={"notes-page"}>
+            {
+                props.datas.map(item=>item.place==="archive"?<NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>:null)
+            }
+        </div>
     );
 };
 

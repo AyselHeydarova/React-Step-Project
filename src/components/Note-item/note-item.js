@@ -46,7 +46,6 @@ const NoteItem = props => {
       }
     };
     defineColor();
-    console.log(color);
     return (
         <div className={"note-item"} style={{backgroundColor:color.bgc, border: `1px solid ${color.border}`}}>
             <div style={{borderBottom:`1px solid ${color.border}`}}>

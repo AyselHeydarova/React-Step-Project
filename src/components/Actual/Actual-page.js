@@ -1,6 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './actual-page.scss'
 import NoteItem from "../Note-item/note-item";
+
+
 const ActualPage=props=> {
         return (
             <div className={"notes-page"}>
@@ -9,6 +11,13 @@ const ActualPage=props=> {
                 }
             </div>
         );
-}
+};
 
 export default ActualPage;
+
+/*
+{
+                    this.state.actual.map(item=><NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>)
+                }
+ */
+

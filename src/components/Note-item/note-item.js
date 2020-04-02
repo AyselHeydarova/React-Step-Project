@@ -33,6 +33,7 @@ const NoteItem = props => {
       }
     };
     defineColor();
+
     return (
         <div className={"folded_corner"} style={{background: `linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) no-repeat 99% 0 / 2em 2em,linear-gradient(-135deg, transparent 1.5em, ${color} 0)`}}>
             <div >

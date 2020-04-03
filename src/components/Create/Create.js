@@ -1,26 +1,89 @@
-import React from 'react';
+import React, {useState} from 'react';
+import uuid from 'react-uuid'
 import './Create.css';
 
 const Create = () => {
+
+    const [title, setTitle] = useState('');
+    const [text, setText] = useState('');
+    const [color, setColor] = useState('');
+    const id = uuid();
+
+    const newNote = {
+
+        title: title,
+        text: text,
+        color: color,
+        id: id,
+        isCompleted: false
+
+    };
+
+
+    const getTitle = (event) => {
+        setTitle(event.target.value)
+    };
+
+    const getText = (event) => {
+        setText(event.target.value);
+    };
+
+    const submitHandler = (event) => {
+        event.preventDefault();
+
+        fetch("http://localhost:3000/notes" || "http://localhost:3001/notes", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newNote),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+
+    };
+
+    const colorGreen = () => {
+        setColor('green');
+    };
+
+    const colorBlue = () => {
+        setColor('blue');
+    };
+
+    const colorYellow = () => {
+        setColor('yellow');
+    };
+
+    const colorRed = () => {
+        setColor('red');
+    };
+
+
     return (
-        <div className={'container'}>
+        <form onSubmit={submitHandler} className={'container'}>
             <h1>
                 Fill Data
             </h1>
 
-            <input className={'note-title'} type={'text'} placeholder={'Title'}/>
-            <textarea className={'note-text'} id="" cols="30" rows="10" placeholder={'NoteText'}> </textarea>
+            <input className={'note-title'} type={'text'} placeholder={'Title'} onChange={getTitle}/>
+            <textarea className={'note-text'} id="" cols="30" rows="10" onChange={getText}></textarea>
 
             <div className={'colors-container'}>
                 <p>Color:</p>
-                <div className={'green circle'}> </div>
-                <div className={'blue circle'}> </div>
-                <div className={'yellow circle'}> </div>
-                <div className={'red circle'}> </div>
+                <div className={'green circle'} onClick={colorGreen}></div>
+                <div className={'blue circle'} onClick={colorBlue}></div>
+                <div className={'yellow circle'} onClick={colorYellow}></div>
+                <div className={'red circle'} onClick={colorRed}></div>
             </div>
 
             <input className={'create-btn'} type={'submit'} value={'Create'}/>
-        </div>
+        </form>
     );
 };
 

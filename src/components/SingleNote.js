@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './SingleNoteStyle.scss'
+import {Link} from "react-router-dom";
 const SingleNote = ({match}) => {
 
     const [note, setNote] = useState('');
@@ -23,9 +24,9 @@ const SingleNote = ({match}) => {
                 </div>
             </div>
             <div className={"buttons"}>
-                <div className={"btn"}><p>edit</p></div>
-                <div className={"btn"}><p>archive</p></div>
-                <div className={"btn"}><p>delete</p></div>
+                <Link className={"btn"} to={"/create"}>edit</Link>
+                <Link className={"btn"} to={"/"}>archive</Link>
+                <Link className={"btn"} to={"/"}>delete</Link>
             </div>
         </div>
     );

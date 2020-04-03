@@ -7,18 +7,15 @@ class HomePage extends Component {
 
     render() {
         return (
-            <>
             <div className={"notes-page"}>
                 {
                     this.props.datas.map(item =>
-                        <Link to={`/notes/${item.id}`}>
+                        <Link className={"link-style"} to={`/notes/${item.id}`}>
                             <NoteItem key={item.id} title={item.title} context={item.text} color={item.color}/>
                         </Link>
                     )
                 }
             </div>
-
-            </>
         );
     }
 }

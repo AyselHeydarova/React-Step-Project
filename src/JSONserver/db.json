@@ -4,8 +4,8 @@
       "isCompleted": false,
       "place": "actual",
       "title": "Note title 1",
-      "text": "Sample text 1",
-      "color": "red",
+      "text": "Sample text 1 ,            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet autem corporis deserunt ipsam nemo non odit pariatur       \"text\": \"Sample text 1 ,            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet autem corporis deserunt ipsam nemo non odit pariatur quae quis, quos tenetur vitae. Cumque, in porro! Hic molestias quaerat voluptate.\\n\",\nquae quis, quos tenetur vitae. Cumque, in porro! Hic molestias quaerat voluptate.\n",
+      "color": "rgb(251, 132, 205)",
       "id": 1
     },
     {
@@ -13,7 +13,7 @@
       "place": "actual",
       "title": "Note title 2",
       "text": "Sample text 2",
-      "color": "yellow",
+      "color": "rgb(255, 255, 128)",
       "id": 2
     },
     {
@@ -21,42 +21,56 @@
       "place": "actual",
       "title": "Note title 3",
       "text": "Sample text 3",
-      "color": "blue",
+      "color": "rgb(77, 195, 255)",
       "id": 3
     },
     {
       "isCompleted": false,
       "title": "Note title 1",
       "text": "Sample text 1",
-      "color": "red",
+      "color": "rgb(251, 132, 205)",
       "id": 4
     },
     {
-      "isCompleted":false,
+      "isCompleted": false,
       "title": "Note title 2",
       "text": "Sample text 2",
-      "color": "yellow",
+      "color": "rgb(255, 255, 128)",
       "id": 5
     },
     {
-      "isCompleted":false,
+      "isCompleted": false,
       "title": "Note title 3",
       "text": "Sample text 3",
-      "color": "green",
+      "color": "rgb(64, 191, 125)",
       "id": 6
     },
     {
       "title": "Complete create component",
       "text": "Post request\nsmth else",
-      "color": "green",
+      "color": "rgb(64, 191, 125)",
       "id": "326536-605f-cf8f-6eaa-52f0c1fad18",
       "isCompleted": false
     },
     {
       "title": "Step Project",
       "text": "complete components",
-      "color": "blue",
+      "color": "rgb(77, 195, 255)",
       "id": "28d0c6-276-a01a-41b-5404c335206",
+      "isCompleted": false
+    },
+    {
+      "title": "Hello",
+      "text": "Salam",
+      "color": "rgb(251, 132, 205)",
+      "id": "0e335-d6d5-5a02-dd3b-a03825c3ada3",
+      "isCompleted": false
+    },
+    {
+      "title": "Hello",
+      "text": "qwertytrewjsnam",
+      "color": "rgb(251, 132, 205)",
+      "id": "cea70a5-548b-0dd5-f780-505cd2f34c1c",
       "isCompleted": false
     }
   ]

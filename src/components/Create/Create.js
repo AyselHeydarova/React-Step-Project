@@ -49,19 +49,19 @@ const Create = () => {
     };
 
     const colorGreen = () => {
-        setColor('green');
+        setColor('rgb(64, 191, 125)');
     };
 
     const colorBlue = () => {
-        setColor('blue');
+        setColor('rgb(77, 195, 255)');
     };
 
     const colorYellow = () => {
-        setColor('yellow');
+        setColor('rgb(255, 255, 128)');
     };
 
     const colorRed = () => {
-        setColor('red');
+        setColor('rgb(251, 132, 205)');
     };
 
 

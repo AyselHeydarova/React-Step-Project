@@ -1,7 +1,7 @@
 {
   "notes":[
     {
-
+      "isCompleted": false,
       "place": "actual",
       "title": "Note title 1",
       "text": "Sample text 1",
@@ -9,40 +9,38 @@
       "id": 1
     },
     {
-
+      "isCompleted": false,
       "place": "actual",
-
       "title": "Note title 2",
       "text": "Sample text 2",
       "color": "yellow",
       "id": 2
     },
     {
-
+      "isCompleted": false,
       "place": "actual",
-
       "title": "Note title 3",
       "text": "Sample text 3",
-      "color": "green",
+      "color": "blue",
       "id": 3
 
     },
     {
-      "place": "actual",
+      "isCompleted": false,
       "title": "Note title 1",
       "text": "Sample text 1",
       "color": "red",
       "id": 4
     },
     {
-      "place": "archive",
+      "isCompleted":false,
       "title": "Note title 2",
       "text": "Sample text 2",
       "color": "yellow",
       "id": 5
     },
     {
-      "place": "actual",
+      "isCompleted":false,
       "title": "Note title 3",
       "text": "Sample text 3",
       "color": "green",

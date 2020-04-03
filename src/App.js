@@ -32,8 +32,8 @@ class App extends Component {
                 <Route path={'/archive'} >
                     <Archive datas={this.state.all}/>
                 </Route>
-                <Route path={'/create'}>
-                    <Create/>
+                <Route path={'/create'} >
+                    <Create {...this.props}/>
                 </Route>
                 <Route path="/notes/:id" component={SingleNote}/>
             </>

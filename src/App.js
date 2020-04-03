@@ -15,7 +15,7 @@ class App extends Component {
         archive:[]
     };
     componentDidMount() {
-        fetch("http://localhost:3000/notes" || "http://localhost:3001/notes").then(item => item.json()).then(item => this.setState({all: item}));
+        fetch( "http://localhost:3001/notes").then(item => item.json()).then(item => this.setState({all: item}));
     }
 
     render(){
@@ -35,9 +35,7 @@ class App extends Component {
                 <Route path={'/create'}>
                     <Create/>
                 </Route>
-
                 <Route path="/notes/:id" component={SingleNote}/>
-
             </>
         );
     }

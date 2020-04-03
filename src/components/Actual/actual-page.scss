@@ -1,4 +1,3 @@
-
 @mixin notes-page-style{
   display: flex;
   flex-wrap: wrap;
@@ -7,5 +6,10 @@
 }
 .notes-page{
   @include notes-page-style;
-
+}
+.link-style{
+  width: 28%;
+  margin:25px 2%;
+  text-decoration: none;
+  color: black;
 }

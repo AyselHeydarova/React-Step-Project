@@ -1,9 +1,30 @@
-@mixin note-item-style{
+@import url(https://fonts.googleapis.com/css?family=Rosario:400,700);
+
+.folded_corner{
+  position:relative;
+  width:25%;
+  height: 180px;
+  margin:25px auto;
+  padding:10px 20px 10px 10px;
+  text-overflow: ellipsis;
+  font: 20px 'Rosario', sans-serif;
+  filter: drop-shadow(10px 15px rgba(0,0,0,0.06));
+}
+.folded_corner::before{
+  content: ' ';
+  position:absolute;
+  top:2em;
+  right:0;
+  background: linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,0.07) 0) 100% 0 no-repeat;
+  width: 2em;
+  height:2em;
+  transform: rotate(180deg)
+}
+/*@mixin note-item-style{
   width: 27%;
   height: 200px;
   margin-top: 30px;
   overflow: hidden;
-  text-overflow: ellipsis;
   text-align: center;
   margin: 20px 30px;
 }
@@ -13,3 +34,5 @@
 .note-item-title{
   text-align: center;
 }
+
+ */

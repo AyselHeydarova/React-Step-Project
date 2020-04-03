@@ -5,6 +5,7 @@ import ActualPage from "./components/Actual/Actual-page";
 import Archive from "./components/Archive";
 import HomePage from "./components/HomePage";
 import Create from "./components/Create/Create";
+import SingleNote from "./components/SingleNote";
 
 
 class App extends Component {
@@ -34,6 +35,8 @@ class App extends Component {
                 <Route path={'/create'}>
                     <Create/>
                 </Route>
+
+                <Route path="/notes/:id" component={SingleNote}/>
 
             </>
         );

@@ -1,8 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import uuid from 'react-uuid'
 import './Create.scss';
+import { Redirect} from "react-router-dom";
 
 const Create = () => {
+
+    const [redirect,setRedirect] = useState(false);
 
     // Creating new note
     const colors=['rgb(64, 191, 125)','rgb(77, 195, 255)','rgb(255, 255, 128)','rgb(251, 132, 205)'];
@@ -33,7 +36,9 @@ const Create = () => {
     const submitHandler = (event) => {
         event.preventDefault();
 
-        fetch( "http://localhost:3001/notes", {
+        setRedirect(true);
+
+        fetch("http://localhost:3001/notes", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -80,7 +85,14 @@ const Create = () => {
                 <div className={'red circle'} onClick={()=>setNewColor(3)}></div>
             </div>
 
-            <input className={'create-btn'} type={'submit'} value={'Create'}/>
+
+                <input className={'create-btn'} type={'submit'} value={'Create'}/>
+
+            {
+                redirect ? <Redirect to={'/'}/> : null
+            }
+
+
         </form>
     );
 };

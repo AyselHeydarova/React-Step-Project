@@ -10,7 +10,6 @@ import SingleNote from "./components/SingleNote";
 
 class App extends Component {
     render(){
-
         return (
             <>
                 <NavBar/>
@@ -18,7 +17,7 @@ class App extends Component {
                 <Route path={'/actual'} component={ActualPage}/>
                 <Route path={'/archive'} component={Archive}/>
                 <Route path={'/create'} >
-                    <Create {...this.props}/>
+                    <Create/>
                 </Route>
                 <Route path="/notes/:id" component={SingleNote}/>
             </>

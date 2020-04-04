@@ -13,7 +13,7 @@ const SingleNote = ({match}) => {
         }, [match]);
 
 
-    const {title, text, color} = note;
+    const {title, text, color, isCompleted} = note;
 
     // EDIT Form\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -21,11 +21,8 @@ const SingleNote = ({match}) => {
     const [newText, setNewText] = useState(text);
     const [newColor, setNewColor] = useState(color);
     const [modal,setModal]=useState("none");
-    const [edit,setEdit]=useState(match.params.isCompleted);
+    const [completed,setCompleted]=useState(isCompleted);
 
-    const archive=()=>{
-        setEdit(true);
-    };
 
     const getTitle = (event) => {
         setNewTitle(event.target.value)
@@ -56,9 +53,7 @@ const SingleNote = ({match}) => {
         text: newText,
         color: newColor,
     };
-    const archivatedData={
-        isCompleted:edit
-    };
+
     const ToggleDelete=()=>{
         modal==="none"?
         setModal("flex"):
@@ -71,16 +66,24 @@ const SingleNote = ({match}) => {
           .then(item => console.log(item));
     };
     const Archive=()=>{
+
+        setCompleted(true);
+
+        const archiveData = {
+            isCompleted: completed
+        };
+
         fetch(`http://localhost:3001/notes/${match.params.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(archivatedData),
+            body: JSON.stringify(archiveData),
         })
             .then((response) => response.json())
             .then((data) => console.log(data));
     };
+
    const saveSubmitHandler = () => {
            fetch(`http://localhost:3001/notes/${match.params.id}`, {
                    method: 'PATCH',
@@ -126,7 +129,10 @@ const SingleNote = ({match}) => {
                 <div className={"buttons"}>
                     <button className={"btn"}>edit</button>
 
-                    <Link className={"btn"} to={"/"} onClick={Archive}>archive</Link>
+                    {/*<Link className={"btn"} to={"/archive"} onClick={Archive}>archive</Link>*/}
+
+                    <button className={"btn"} onClick={Archive} >Archive</button>
+
                     <div className={"btn"} onClick={ToggleDelete}>delete</div>
                 </div>
                 <Modal delete={Delete} hidden={modal} toggle={ToggleDelete}/>

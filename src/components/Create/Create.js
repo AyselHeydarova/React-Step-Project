@@ -8,7 +8,7 @@ const Create = () => {
 
     const [newTitle, setTitle] = useState('');
     const [newText, setText] = useState('');
-    const [newColor, setColor] = useState('');
+    const [newColor, setColor] = useState('rgb(255, 255, 128)');
     const id = uuid();
 
     const newNote = {
@@ -49,7 +49,6 @@ const Create = () => {
             });
 
     };
-
     const colorGreen = () => {
         setColor('rgb(64, 191, 125)');
     };

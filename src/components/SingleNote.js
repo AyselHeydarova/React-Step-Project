@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './SingleNoteStyle.scss'
 import { Link} from "react-router-dom";
+import Modal from "./modal/Modal";
 const SingleNote = ({match}) => {
 
     const [note, setNote] = useState('');
@@ -19,7 +20,12 @@ const SingleNote = ({match}) => {
     const [newTitle, setNewTitle] = useState(title);
     const [newText, setNewText] = useState(text);
     const [newColor, setNewColor] = useState(color);
+    const [modal,setModal]=useState("none");
+    const [edit,setEdit]=useState(match.params.isCompleted);
 
+    const archive=()=>{
+        setEdit(true);
+    };
 
     const getTitle = (event) => {
         setNewTitle(event.target.value)
@@ -50,8 +56,32 @@ const SingleNote = ({match}) => {
         text: newText,
         color: newColor,
     };
+    const archivatedData={
+        isCompleted:edit
+    };
+    const ToggleDelete=()=>{
+        modal==="none"?
+        setModal("flex"):
+            setModal("none");
+    };
+    const Delete=()=>{
+      fetch(`http://localhost:3001/notes/${match.params.id}`,{
+          method:'DELETE'
+      }).then(item => item.json())
+          .then(item => console.log(item));
+    };
+    const Archive=()=>{
+        fetch(`http://localhost:3001/notes/${match.params.id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(archivatedData),
+        })
+            .then((response) => response.json())
+            .then((data) => console.log(data));
+    };
    const saveSubmitHandler = () => {
-
            fetch(`http://localhost:3001/notes/${match.params.id}`, {
                    method: 'PATCH',
                    headers: {
@@ -60,8 +90,7 @@ const SingleNote = ({match}) => {
                    body: JSON.stringify(editedData),
                })
                    .then((response) => response.json())
-                   .then((data) => console.log(data))
-   };
+                   .then((data) => console.log(data))};
 
     const editForm =
     <form  onSubmit={saveSubmitHandler} className={'container'}>
@@ -83,26 +112,28 @@ const SingleNote = ({match}) => {
         <input className={'create-btn'} type={'submit'} value={'Save'}/>
     </form>
     ;
-
     return (
-        <div className={"single-note-container"}>
-            <div className={"single-note"} style={{background: `linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) no-repeat 99% 0 / 4em 4em,linear-gradient(-135deg, transparent 3em, ${color} 0)`}} >
-                <div className={"title"}>
-                    <h2>{title}</h2>
+        <div>
+            <div className={"single-note-container"}>
+                <div className={"single-note"} style={{background: `linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) no-repeat 99% 0 / 4em 4em,linear-gradient(-135deg, transparent 3em, ${color} 0)`}} >
+                    <div className={"title"}>
+                        <h2>{title}</h2>
+                    </div>
+                    <div className={"paragraph"}>
+                        <p>{text}</p>
+                    </div>
                 </div>
-                <div className={"paragraph"}>
-                    <p>{text}</p>
+                <div className={"buttons"}>
+                    <button className={"btn"}>edit</button>
+
+                    <Link className={"btn"} to={"/"} onClick={Archive}>archive</Link>
+                    <div className={"btn"} onClick={ToggleDelete}>delete</div>
                 </div>
+                <Modal delete={Delete} hidden={modal} toggle={ToggleDelete}/>
             </div>
-            <div className={"buttons"}>
-                <button className={"btn"}>edit</button>
-
-                <Link className={"btn"} to={"/"}>archive</Link>
-                <Link className={"btn"} to={"/"}>delete</Link>
-            </div>
-
             {editForm}
         </div>
+
     );
 };
 

@@ -9,8 +9,8 @@
     },
     {
       "title": "Complete create component",
-      "text": "Post request\nsmth else",
-      "color": "rgb(255, 255, 128)",
+      "text": "Post request\nsmth elseretlkjhgfds",
+      "color": "rgb(64, 191, 125)",
       "id": "326536-605f-cf8f-6eaa-52f0c1fad18",
       "isCompleted": true
     },
@@ -47,12 +47,12 @@
       "text": "New to do list",
       "color": "rgb(77, 195, 255)",
       "id": "330300b-3e03-b1f8-b3ce-6dc2f17e205d",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "ljfdlgjdf",
       "text": "gdfjgsrdkjtl",
-      "color": "rgb(255, 255, 128)",
+      "color": "rgb(64, 191, 125)",
       "id": "7777e1-4a31-e6c2-f6ff-ded31a5a3e1",
       "isCompleted": false
     },
@@ -61,14 +61,14 @@
       "text": "Redirect please",
       "color": "rgb(251, 132, 205)",
       "id": "d40f52-730a-e425-daf-cfc45124c",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "ljlkjjjjf",
       "text": "4444444",
       "color": "rgb(255, 255, 128)",
       "id": "7fdecba-5566-b856-bd50-3b4b332082c6",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "jjhhhhh",
@@ -187,6 +187,27 @@
       "text": "it works\n",
       "color": "rgb(251, 132, 205)",
       "id": "1a4ab-124f-5a44-27a0-f80dce4f3e",
+      "isCompleted": false
+    },
+    {
+      "title": "Gunel",
+      "text": "trying",
+      "color": "rgb(77, 195, 255)",
+      "id": "c0cf-237e-a5e1-4c4f-40be013c8731",
+      "isCompleted": false
+    },
+    {
+      "title": "qwaesrdt",
+      "text": "ASDFGHJHGFDERTYHGFVCXZ",
+      "color": "rgb(255, 255, 128)",
+      "id": "ab12d6c-8d4-508-8de2-a32f24e8ba5",
+      "isCompleted": false
+    },
+    {
+      "title": "come",
+      "text": "immediately ",
+      "color": "rgb(255, 255, 128)",
+      "id": "16ff7f4-0442-22d-8453-a58acee002",
       "isCompleted": false
     }
   ]

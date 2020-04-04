@@ -10,14 +10,14 @@
     {
       "title": "Complete create component",
       "text": "Post request\nsmth else",
-      "color": "rgb(64, 191, 125)",
+      "color": "rgb(255, 255, 128)",
       "id": "326536-605f-cf8f-6eaa-52f0c1fad18",
       "isCompleted": true
     },
     {
       "title": "Step Project",
       "text": "complete components",
-      "color": "rgb(77, 195, 255)",
+      "color": "rgb(251, 132, 205)",
       "id": "28d0c6-276-a01a-41b-5404c335206",
       "isCompleted": true
     },
@@ -47,6 +47,48 @@
       "text": "dfghjnm",
       "color": "rgb(251, 132, 205)",
       "id": "d32c7bd-b820-2e3-c5fe-76aa6d780d",
+      "isCompleted": false
+    },
+    {
+      "title": "fghjkm,",
+      "text": "bnm,",
+      "color": "rgb(251, 132, 205)",
+      "id": "66c50-aef3-360a-ba72-45818b3d5d1",
+      "isCompleted": false
+    },
+    {
+      "title": "fghbn",
+      "text": "dfghjnkml,.gvhbjn",
+      "color": "rgb(255, 255, 128)",
+      "id": "cd134b-fcad-462e-58aa-6b0b5e752fe5",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "please work",
+      "color": "rgb(64, 191, 125)",
+      "id": "5bb3060-ad5-e132-7ec8-2acc45ff40",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "work correctly",
+      "id": "f2be51-8f47-4c8f-6f8-b62677877e08",
+      "isCompleted": false,
+      "color": "rgb(255, 255, 128)"
+    },
+    {
+      "title": "hello",
+      "text": "last try",
+      "color": "rgb(251, 132, 205)",
+      "id": "f1318de-2ac-277-ce0b-cdd7d14b1c4b",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "it works\n",
+      "color": "rgb(251, 132, 205)",
+      "id": "1a4ab-124f-5a44-27a0-f80dce4f3e",
       "isCompleted": false
     }
   ]

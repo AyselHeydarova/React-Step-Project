@@ -30,23 +30,18 @@ const SingleNote = ({match}) => {
     const getText = (event) => {
         setNewText(event.target.value);
     };
-
-    const colorGreen = () => {
-        setNewColor('rgb(64, 191, 125)');
+    const setColor=(colorName)=>{
+        switch (colorName) {
+            case "green":setNewColor('rgb(64, 191, 125)');
+            break;
+            case "blue":setNewColor('rgb(77, 195, 255)');
+            break;
+            case "yellow":setNewColor('rgb(255, 255, 128)');
+            break;
+            case "red":setNewColor('rgb(251, 132, 205)');
+            break;
+        }
     };
-
-    const colorBlue = () => {
-        setNewColor('rgb(77, 195, 255)');
-    };
-
-    const colorYellow = () => {
-        setNewColor('rgb(255, 255, 128)');
-    };
-
-    const colorRed = () => {
-        setNewColor('rgb(251, 132, 205)');
-    };
-
     const editedData = {
         title: newTitle,
         text: newText,
@@ -100,10 +95,10 @@ const SingleNote = ({match}) => {
 
         <div className={'colors-container'}>
             <p>Color:</p>
-            <div className={'green circle'} onClick={colorGreen}></div>
-            <div className={'blue circle'} onClick={colorBlue}></div>
-            <div className={'yellow circle'} onClick={colorYellow}></div>
-            <div className={'red circle'} onClick={colorRed}></div>
+            <div className={'green circle'} onClick={()=>setColor("green")}></div>
+            <div className={'blue circle'} onClick={()=>setColor("blue")}></div>
+            <div className={'yellow circle'} onClick={()=>setColor("yellow")}></div>
+            <div className={'red circle'} onClick={()=>setColor("red")}></div>
         </div>
 
         <input className={'create-btn'} type={'submit'} value={'Save'}/>

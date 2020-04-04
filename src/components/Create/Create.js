@@ -5,10 +5,10 @@ import './Create.scss';
 const Create = () => {
 
     // Creating new note
-
+    const colors=['rgb(64, 191, 125)','rgb(77, 195, 255)','rgb(255, 255, 128)','rgb(251, 132, 205)'];
     const [newTitle, setTitle] = useState('');
     const [newText, setText] = useState('');
-    const [newColor, setColor] = useState('rgb(255, 255, 128)');
+    const [newColor, setColor] = useState(colors[Math.floor(Math.random()*4)]);
     const id = uuid();
 
     const newNote = {
@@ -49,25 +49,22 @@ const Create = () => {
             });
 
     };
-    const colorGreen = () => {
-        setColor('rgb(64, 191, 125)');
-    };
 
-    const colorBlue = () => {
-        setColor('rgb(77, 195, 255)');
+    const setNewColor=(index)=>{
+        switch (index) {
+            case 0: setColor(colors[index]);
+                break;
+            case 1:setColor(colors[index]);
+                break;
+            case 2:setColor(colors[index]);
+                break;
+            case 3:setColor(colors[index]);
+                break;
+        }
     };
-
-    const colorYellow = () => {
-        setColor('rgb(255, 255, 128)');
-    };
-
-    const colorRed = () => {
-        setColor('rgb(251, 132, 205)');
-    };
-
 
     return (
-        <form onSubmit={submitHandler} className={"edit-container"}>
+        <form onSubmit={submitHandler} className={"container"}>
             <h1>
                 Fill Data
             </h1>
@@ -77,10 +74,10 @@ const Create = () => {
 
             <div className={'colors-container'}>
                 <p>Color:</p>
-                <div className={'green circle'} onClick={colorGreen}></div>
-                <div className={'blue circle'} onClick={colorBlue}></div>
-                <div className={'yellow circle'} onClick={colorYellow}></div>
-                <div className={'red circle'} onClick={colorRed}></div>
+                <div className={'green circle'} onClick={()=>setNewColor(0)}></div>
+                <div className={'blue circle'} onClick={()=>setNewColor(1)}></div>
+                <div className={'yellow circle'} onClick={()=>setNewColor(2)}></div>
+                <div className={'red circle'} onClick={()=>setNewColor(3)}></div>
             </div>
 
             <input className={'create-btn'} type={'submit'} value={'Create'}/>

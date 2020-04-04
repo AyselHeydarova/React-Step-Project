@@ -10,7 +10,7 @@ const NoteItem = props => {
                 <h3>{props.title}</h3>
             </div>
             <div className={"paragraph-item"}>
-                <p>{props.context}</p>
+                <p >{props.context}</p>
             </div>
         </div>
     );

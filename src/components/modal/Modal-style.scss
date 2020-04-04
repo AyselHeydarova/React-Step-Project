@@ -1,0 +1,44 @@
+@mixin modal{
+  background-color: #fff;
+  width: 40%;
+  height: 150px;
+  border: 1px solid black;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 100px auto;
+}
+@mixin button{
+  height: 50px;
+  @include flex;
+  cursor: pointer;
+}
+@mixin flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete{
+  @include modal;
+}
+.flexible{
+  display: flex;
+}
+.cancel{
+  background-color: lightcoral;
+  border: 1px solid red;
+  @include button;
+  width: 70%;
+}
+.yes{
+  background-color: lightgreen;
+  border: 1px solid green;
+  width: 30%;
+  @include button
+}
+.confirmation{
+  padding: 30px;
+  @include flex;
+}

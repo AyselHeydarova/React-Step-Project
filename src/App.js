@@ -9,35 +9,17 @@ import SingleNote from "./components/SingleNote";
 
 
 class App extends Component {
-    state={
-        all:[],
-        actual:[],
-        archive:[]
-    };
-    componentDidMount() {
-        fetch("http://localhost:3000/notes" || "http://localhost:3001/notes").then(item => item.json()).then(item => this.setState({all: item}));
-    }
-
     render(){
-
         return (
             <>
                 <NavBar/>
-                <Route exact path={'/'}>
-                    <HomePage datas={this.state.all}/>
-                </Route>
-                <Route path={'/actual'}>
-                    <ActualPage datas={this.state.all}/>
-                </Route>
-                <Route path={'/archive'} >
-                    <Archive datas={this.state.all}/>
-                </Route>
-                <Route path={'/create'}>
+                <Route exact path={'/'} component={HomePage}/>
+                <Route path={'/actual'} component={ActualPage}/>
+                <Route path={'/archive'} component={Archive}/>
+                <Route path={'/create'} >
                     <Create/>
                 </Route>
-
                 <Route path="/notes/:id" component={SingleNote}/>
-
             </>
         );
     }

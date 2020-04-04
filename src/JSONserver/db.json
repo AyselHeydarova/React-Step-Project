@@ -1,59 +1,192 @@
 {
   "notes": [
     {
-      "place": "actual",
-      "title": "Note title 1",
-      "text": "Sample text 1",
-      "color": "red",
-      "id": 1
-    },
-    {
-      "place": "actual",
-      "title": "Note title 2",
-      "text": "Sample text 2",
-      "color": "yellow",
-      "id": 2
-    },
-    {
-      "place": "actual",
-      "title": "Note title 3",
-      "text": "Sample text 3",
-      "color": "green",
-      "id": 3
-    },
-    {
-      "place": "actual",
-      "title": "Note title 1",
-      "text": "Sample text 1",
-      "color": "red",
-      "id": 4
-    },
-    {
-      "place": "archive",
-      "title": "Note title 2",
-      "text": "Sample text 2",
-      "color": "yellow",
-      "id": 5
-    },
-    {
-      "place": "actual",
-      "title": "Note title 3",
-      "text": "Sample text 3",
-      "color": "green",
-      "id": 6
+      "title": "Aysel",
+      "text": "Sample text 2b \nbhjk",
+      "color": "rgb(255, 255, 128)",
+      "id": 5,
+      "isCompleted": true
     },
     {
       "title": "Complete create component",
       "text": "Post request\nsmth else",
-      "color": "green",
+      "color": "rgb(255, 255, 128)",
       "id": "326536-605f-cf8f-6eaa-52f0c1fad18",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "Step Project",
       "text": "complete components",
-      "color": "blue",
+      "color": "rgb(251, 132, 205)",
       "id": "28d0c6-276-a01a-41b-5404c335206",
+      "isCompleted": true
+    },
+    {
+      "title": "Hello",
+      "text": "wedfrhbedsflvr\nsacdnb dd\nlorem",
+      "color": "rgb(77, 195, 255)",
+      "id": "3587add-2fb-88e-2461-638d4a34a11",
+      "isCompleted": true
+    },
+    {
+      "title": "Heheyy",
+      "text": "ARchive wooorkkk\nAnd now it works better but still not perfect",
+      "color": "rgb(64, 191, 125)",
+      "id": "7e34003-0742-8e4d-80ed-c70c503fbfd1",
+      "isCompleted": true
+    },
+    {
+      "title": "dfghjk",
+      "text": "dfghjnm",
+      "color": "rgb(251, 132, 205)",
+      "id": "d32c7bd-b820-2e3-c5fe-76aa6d780d",
+      "isCompleted": true
+    },
+    {
+      "title": "New Note ",
+      "text": "New to do list",
+      "color": "rgb(77, 195, 255)",
+      "id": "330300b-3e03-b1f8-b3ce-6dc2f17e205d",
+      "isCompleted": false
+    },
+    {
+      "title": "ljfdlgjdf",
+      "text": "gdfjgsrdkjtl",
+      "color": "rgb(255, 255, 128)",
+      "id": "7777e1-4a31-e6c2-f6ff-ded31a5a3e1",
+      "isCompleted": false
+    },
+    {
+      "title": "Redirectttt",
+      "text": "Redirect please",
+      "color": "rgb(251, 132, 205)",
+      "id": "d40f52-730a-e425-daf-cfc45124c",
+      "isCompleted": false
+    },
+    {
+      "title": "ljlkjjjjf",
+      "text": "4444444",
+      "color": "rgb(255, 255, 128)",
+      "id": "7fdecba-5566-b856-bd50-3b4b332082c6",
+      "isCompleted": false
+    },
+    {
+      "title": "jjhhhhh",
+      "text": "jjjjjjj",
+      "color": "rgb(255, 255, 128)",
+      "id": "b54418a-4547-ece-eef5-8ff5abd21dae",
+      "isCompleted": false
+    },
+    {
+      "title": "I woooorrkkkks",
+      "text": "Yehuuuuuu",
+      "color": "rgb(77, 195, 255)",
+      "id": "a262ad2-80bd-b0a-f555-eaaac514787",
+      "isCompleted": false
+    },
+    {
+      "title": "Editeddd",
+      "text": "ddddd",
+      "color": "rgb(64, 191, 125)",
+      "id": "e544853-fb15-0aa1-a28f-04f0a7e51a5e",
+      "isCompleted": false
+    },
+    {
+      "title": "12134",
+      "text": "dfgdfg",
+      "color": "rgb(251, 132, 205)",
+      "id": "5b108f4-3dcb-6df8-0501-bb6c02462da5",
+      "isCompleted": false
+    },
+    {
+      "title": "rewreee",
+      "text": "eerwewewerwer",
+      "color": "rgb(64, 191, 125)",
+      "id": "b7de31-15df-41bc-70da-74e0bdfddc68",
+      "isCompleted": false
+    },
+    {
+      "title": "fghjkm,",
+      "text": "bnm,",
+      "color": "rgb(251, 132, 205)",
+      "id": "66c50-aef3-360a-ba72-45818b3d5d1",
+      "isCompleted": false
+    },
+    {
+      "title": "fghbn",
+      "text": "dfghjnkml,.gvhbjn",
+      "color": "rgb(255, 255, 128)",
+      "id": "cd134b-fcad-462e-58aa-6b0b5e752fe5",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "please work",
+      "color": "rgb(64, 191, 125)",
+      "id": "5bb3060-ad5-e132-7ec8-2acc45ff40",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "work correctly",
+      "id": "f2be51-8f47-4c8f-6f8-b62677877e08",
+      "isCompleted": false,
+      "color": "rgb(255, 255, 128)"
+    },
+    {
+      "title": "hello",
+      "text": "last try",
+      "color": "rgb(251, 132, 205)",
+      "id": "f1318de-2ac-277-ce0b-cdd7d14b1c4b",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "it works\n",
+      "color": "rgb(251, 132, 205)",
+      "id": "1a4ab-124f-5a44-27a0-f80dce4f3e",
+      "isCompleted": false
+    },
+    {
+      "title": "fghjkm,",
+      "text": "bnm,",
+      "color": "rgb(251, 132, 205)",
+      "id": "66c50-aef3-360a-ba72-45818b3d5d1",
+      "isCompleted": false
+    },
+    {
+      "title": "fghbn",
+      "text": "dfghjnkml,.gvhbjn",
+      "color": "rgb(255, 255, 128)",
+      "id": "cd134b-fcad-462e-58aa-6b0b5e752fe5",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "please work",
+      "color": "rgb(64, 191, 125)",
+      "id": "5bb3060-ad5-e132-7ec8-2acc45ff40",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "work correctly",
+      "id": "f2be51-8f47-4c8f-6f8-b62677877e08",
+      "isCompleted": false,
+      "color": "rgb(255, 255, 128)"
+    },
+    {
+      "title": "hello",
+      "text": "last try",
+      "color": "rgb(251, 132, 205)",
+      "id": "f1318de-2ac-277-ce0b-cdd7d14b1c4b",
+      "isCompleted": false
+    },
+    {
+      "title": "hello",
+      "text": "it works\n",
+      "color": "rgb(251, 132, 205)",
+      "id": "1a4ab-124f-5a44-27a0-f80dce4f3e",
       "isCompleted": false
     }
   ]

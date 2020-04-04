@@ -1,9 +1,9 @@
 {
   "notes": [
     {
-      "title": "Note title 2",
-      "text": "Sample text 2\ndfgvhbnjmk,.ssd\ndfghjkl\ndfcgvhbjnkl\nxfxcgvbnm,\ngvhbjnkl\ngvhbjklwdefrtg\nwesrfdgcvb \nbhjk",
-      "color": "rgb(251, 132, 205)",
+      "title": "Aysel",
+      "text": "Sample text 2b \nbhjk",
+      "color": "rgb(255, 255, 128)",
       "id": 5,
       "isCompleted": true
     },
@@ -36,17 +36,73 @@
       "isCompleted": true
     },
     {
-      "title": "dfghjnmk,",
-      "text": "qNYHFVDFBFG",
-      "color": "rgb(255, 255, 128)",
-      "id": "c3bfcc-ede2-74f2-0ed7-d7f36db5546",
-      "isCompleted": false
-    },
-    {
       "title": "dfghjk",
       "text": "dfghjnm",
       "color": "rgb(251, 132, 205)",
       "id": "d32c7bd-b820-2e3-c5fe-76aa6d780d",
+      "isCompleted": true
+    },
+    {
+      "title": "New Note ",
+      "text": "New to do list",
+      "color": "rgb(77, 195, 255)",
+      "id": "330300b-3e03-b1f8-b3ce-6dc2f17e205d",
+      "isCompleted": false
+    },
+    {
+      "title": "ljfdlgjdf",
+      "text": "gdfjgsrdkjtl",
+      "color": "rgb(255, 255, 128)",
+      "id": "7777e1-4a31-e6c2-f6ff-ded31a5a3e1",
+      "isCompleted": false
+    },
+    {
+      "title": "Redirectttt",
+      "text": "Redirect please",
+      "color": "rgb(251, 132, 205)",
+      "id": "d40f52-730a-e425-daf-cfc45124c",
+      "isCompleted": false
+    },
+    {
+      "title": "ljlkjjjjf",
+      "text": "4444444",
+      "color": "rgb(255, 255, 128)",
+      "id": "7fdecba-5566-b856-bd50-3b4b332082c6",
+      "isCompleted": false
+    },
+    {
+      "title": "jjhhhhh",
+      "text": "jjjjjjj",
+      "color": "rgb(255, 255, 128)",
+      "id": "b54418a-4547-ece-eef5-8ff5abd21dae",
+      "isCompleted": false
+    },
+    {
+      "title": "I woooorrkkkks",
+      "text": "Yehuuuuuu",
+      "color": "rgb(77, 195, 255)",
+      "id": "a262ad2-80bd-b0a-f555-eaaac514787",
+      "isCompleted": false
+    },
+    {
+      "title": "Editeddd",
+      "text": "ddddd",
+      "color": "rgb(64, 191, 125)",
+      "id": "e544853-fb15-0aa1-a28f-04f0a7e51a5e",
+      "isCompleted": false
+    },
+    {
+      "title": "12134",
+      "text": "dfgdfg",
+      "color": "rgb(251, 132, 205)",
+      "id": "5b108f4-3dcb-6df8-0501-bb6c02462da5",
+      "isCompleted": false
+    },
+    {
+      "title": "rewreee",
+      "text": "eerwewewerwer",
+      "color": "rgb(64, 191, 125)",
+      "id": "b7de31-15df-41bc-70da-74e0bdfddc68",
       "isCompleted": false
     }
   ]

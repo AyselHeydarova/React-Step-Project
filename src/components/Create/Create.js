@@ -1,19 +1,21 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import uuid from 'react-uuid'
 import './Create.css';
 
 const Create = () => {
 
-    const [title, setTitle] = useState('');
-    const [text, setText] = useState('');
-    const [color, setColor] = useState('');
+    // Creating new note
+
+    const [newTitle, setTitle] = useState('');
+    const [newText, setText] = useState('');
+    const [newColor, setColor] = useState('');
     const id = uuid();
 
     const newNote = {
 
-        title: title,
-        text: text,
-        color: color,
+        title: newTitle,
+        text: newText,
+        color: newColor,
         id: id,
         isCompleted: false
 
@@ -31,7 +33,7 @@ const Create = () => {
     const submitHandler = (event) => {
         event.preventDefault();
 
-        fetch("http://localhost:3000/notes" || "http://localhost:3001/notes", {
+        fetch( "http://localhost:3001/notes", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -71,7 +73,7 @@ const Create = () => {
                 Fill Data
             </h1>
 
-            <input className={'note-title'} type={'text'} placeholder={'Title'} onChange={getTitle}/>
+            <input className={'note-title'} type={'text'} placeholder={'Title'} onChange={getTitle}></input>
             <textarea className={'note-text'} id="" cols="30" rows="10" onChange={getText}></textarea>
 
             <div className={'colors-container'}>

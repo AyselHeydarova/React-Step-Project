@@ -1,9 +1,12 @@
-.container {
-    width: 40%;
-    margin: 0 auto;
+@mixin container-style{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.container {
+    @include container-style;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .note-title {

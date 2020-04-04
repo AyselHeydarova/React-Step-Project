@@ -21,7 +21,6 @@ const SingleNote = ({match}) => {
     const [newText, setNewText] = useState(text);
     const [newColor, setNewColor] = useState(color);
     const [modal,setModal]=useState("none");
-    const [completed,setCompleted]=useState(isCompleted);
 
 
     const getTitle = (event) => {
@@ -67,23 +66,18 @@ const SingleNote = ({match}) => {
     };
     const Archive=()=>{
 
-        setCompleted(true);
-
-        const archiveData = {
-            isCompleted: completed
-        };
-
         fetch(`http://localhost:3001/notes/${match.params.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(archiveData),
+            body: JSON.stringify({isCompleted:true}),
         })
             .then((response) => response.json())
             .then((data) => console.log(data));
     };
-
+    const [visibility,setVisibility]=useState("none");
+    const ToggleVisibility=()=>visibility==="none"?setVisibility("flex"):setVisibility("none");
    const saveSubmitHandler = () => {
            fetch(`http://localhost:3001/notes/${match.params.id}`, {
                    method: 'PATCH',
@@ -96,7 +90,7 @@ const SingleNote = ({match}) => {
                    .then((data) => console.log(data))};
 
     const editForm =
-    <form  onSubmit={saveSubmitHandler} className={'container'}>
+    <form  onSubmit={saveSubmitHandler} className={'edit-container'} >
         <h1>
             Edit Data
         </h1>
@@ -127,19 +121,20 @@ const SingleNote = ({match}) => {
                     </div>
                 </div>
                 <div className={"buttons"}>
-                    <button className={"btn"}>edit</button>
+                    <button className={"btn"} onClick={ToggleVisibility}>edit</button>
 
                     {/*<Link className={"btn"} to={"/archive"} onClick={Archive}>archive</Link>*/}
 
-                    <button className={"btn"} onClick={Archive} >Archive</button>
-
-                    <div className={"btn"} onClick={ToggleDelete}>delete</div>
+                    <Link to={'/archive'} className={"btn"} onClick={Archive} >Archive</Link>
+                    <button className={"btn"} onClick={ToggleDelete}>delete</button>
                 </div>
                 <Modal delete={Delete} hidden={modal} toggle={ToggleDelete}/>
+                <div style={{display:visibility}} className={"edit"}>
+                    {editForm}
+                </div>
             </div>
-            {editForm}
-        </div>
 
+        </div>
     );
 };
 

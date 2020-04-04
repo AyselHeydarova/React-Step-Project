@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import uuid from 'react-uuid'
-import './Create.css';
+import './Create.scss';
 
 const Create = () => {
 
@@ -67,7 +67,7 @@ const Create = () => {
 
 
     return (
-        <form onSubmit={submitHandler} className={'container'}>
+        <form onSubmit={submitHandler} className={"edit-container"}>
             <h1>
                 Fill Data
             </h1>

@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <header className={'header'}>
             <Link to={'/'} className={'app-info'}>
-                <img className={'logo'} src="Images/logo.png"  alt="app logo"/>
+                <img className={'logo'} src="./Images/logo.png"  alt="app logo"/>
                 <h1 className={'app-name'}>NotesApp</h1>
             </Link>
 

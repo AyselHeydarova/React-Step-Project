@@ -1,46 +1,46 @@
 {
   "notes": [
     {
-      "isCompleted": false,
+      "isCompleted": true,
       "title": "Note title 2",
       "text": "Sample text 2\ndfgvhbnjmk,.ssd\ndfghjkl\ndfcgvhbjnkl\nxfxcgvbnm,\ngvhbjnkl\ngvhbjklwdefrtg\nwesrfdgcvb \nbhjk",
-      "color": "rgb(255, 255, 128)",
+      "color": "rgb(251, 132, 205)",
       "id": 5
-    },
-    {
-      "isCompleted": false,
-      "title": "Note title 3",
-      "text": "Sample text 3",
-      "color": "rgb(64, 191, 125)",
-      "id": 6
     },
     {
       "title": "Complete create component",
       "text": "Post request\nsmth else",
       "color": "rgb(64, 191, 125)",
       "id": "326536-605f-cf8f-6eaa-52f0c1fad18",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "Step Project",
       "text": "complete components",
       "color": "rgb(77, 195, 255)",
       "id": "28d0c6-276-a01a-41b-5404c335206",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "Hello",
       "text": "wedfrhbedsflvr\nsacdnb dd\nlorem",
       "color": "rgb(77, 195, 255)",
       "id": "3587add-2fb-88e-2461-638d4a34a11",
-      "isCompleted": false
+      "isCompleted": true
     },
     {
       "title": "ertgyh",
       "text": "ertfyguhjkml,",
       "color": "rgb(255, 255, 128)",
       "id": "b533fb0-dc2-bc63-42bc-2ea38060c0ea",
-      "isCompleted": false
+      "isCompleted": true
+    },
+    {
+      "title": "Heheyy",
+      "text": "ARchive wooorkkk",
+      "color": "rgb(64, 191, 125)",
+      "id": "7e34003-0742-8e4d-80ed-c70c503fbfd1",
+      "isCompleted": true
     }
   ]
 }

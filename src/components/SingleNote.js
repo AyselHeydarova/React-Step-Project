@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './SingleNoteStyle.scss'
 import {Link} from "react-router-dom";
 import Modal from "./modal/Modal";
+import CreateEdit from './Create-Edit';
 
 
 const SingleNote = ({match}) => {
@@ -16,8 +17,6 @@ const SingleNote = ({match}) => {
 
 
     const {title, text, color, isCompleted} = note;
-
-    // EDIT Form\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
     const [newTitle, setNewTitle] = useState(title);
     const [newText, setNewText] = useState(text);
@@ -35,13 +34,13 @@ const SingleNote = ({match}) => {
     const setColor=(colorName)=>{
         switch (colorName) {
             case "green":setNewColor('rgb(64, 191, 125)');
-            break;
+                break;
             case "blue":setNewColor('rgb(77, 195, 255)');
-            break;
+                break;
             case "yellow":setNewColor('rgb(255, 255, 128)');
-            break;
+                break;
             case "red":setNewColor('rgb(251, 132, 205)');
-            break;
+                break;
         }
     };
     const editedData = {
@@ -92,28 +91,16 @@ const SingleNote = ({match}) => {
             .then((data) => console.log(data))
     };
 
-    const editForm =
-        <form onSubmit={saveSubmitHandler} className={'edit-container'}>
-            <h1>
-                Edit Data
-            </h1>
+    const EditForm = <CreateEdit submitHandler={saveSubmitHandler}
+                                 className={"edit-container"}
+                                 header={'Edit data'}
+                                 defaultTitle={title}
+                                 defaultText={text}
+                                 getText={getText}
+                                 getTitle={getTitle}
+                                 btnValue={'Save'}
+                                 setColor={setColor}/>
 
-            <input className={'note-title'} type={'text'} placeholder={'Title'} defaultValue={title}
-                   onChange={getTitle}/>
-            <textarea className={'note-text'} id="" cols="30" rows="10" defaultValue={text}
-                      onChange={getText}></textarea>
-
-        <div className={'colors-container'}>
-            <p>Color:</p>
-            <div className={'green circle'} onClick={()=>setColor("green")}></div>
-            <div className={'blue circle'} onClick={()=>setColor("blue")}></div>
-            <div className={'yellow circle'} onClick={()=>setColor("yellow")}></div>
-            <div className={'red circle'} onClick={()=>setColor("red")}></div>
-        </div>
-
-            <input className={'create-btn'} type={'submit'} value={'Save'}/>
-        </form>
-    ;
     return (
         <div>
             <div className={"single-note-container"}>
@@ -135,7 +122,7 @@ const SingleNote = ({match}) => {
 
                 <Modal delete={Delete} hidden={modal} toggle={ToggleDelete}/>
                 <div style={{display: visibility}} className={"edit"}>
-                    {editForm}
+                    {EditForm}
                 </div>
             </div>
 

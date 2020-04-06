@@ -1,13 +1,15 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 import uuid from 'react-uuid'
 import './Create.scss';
 import { Redirect} from "react-router-dom";
+import CreateEdit from "../Create-Edit";
+
+
 
 const Create = () => {
 
     const [redirect,setRedirect] = useState(false);
 
-    // Creating new note
     const colors=['rgb(64, 191, 125)','rgb(77, 195, 255)','rgb(255, 255, 128)','rgb(251, 132, 205)'];
     const [newTitle, setTitle] = useState('');
     const [newText, setText] = useState('');
@@ -55,46 +57,37 @@ const Create = () => {
 
     };
 
-    const setNewColor=(index)=>{
-        switch (index) {
-            case 0: setColor(colors[index]);
+
+
+    const setNewColor=(colorName)=>{
+        switch (colorName) {
+            case "green":setNewColor('rgb(64, 191, 125)');
                 break;
-            case 1:setColor(colors[index]);
+            case "blue":setNewColor('rgb(77, 195, 255)');
                 break;
-            case 2:setColor(colors[index]);
+            case "yellow":setNewColor('rgb(255, 255, 128)');
                 break;
-            case 3:setColor(colors[index]);
+            case "red":setNewColor('rgb(251, 132, 205)');
                 break;
         }
     };
 
     return (
-        <form onSubmit={submitHandler} className={"container"}>
-            <h1>
-                Fill Data
-            </h1>
-
-            <input className={'note-title'} type={'text'} placeholder={'Title'} onChange={getTitle}></input>
-            <textarea className={'note-text'} id="" cols="30" rows="10" onChange={getText}></textarea>
-
-            <div className={'colors-container'}>
-                <p>Color:</p>
-                <div className={'green circle'} onClick={()=>setNewColor(0)}></div>
-                <div className={'blue circle'} onClick={()=>setNewColor(1)}></div>
-                <div className={'yellow circle'} onClick={()=>setNewColor(2)}></div>
-                <div className={'red circle'} onClick={()=>setNewColor(3)}></div>
-            </div>
-
-
-                <input className={'create-btn'} type={'submit'} value={'Create'}/>
+        <>
+            <CreateEdit submitHandler={submitHandler}
+                        className={"container"}
+                        header={'Fill data'}
+                        getText={getText}
+                        getTitle={getTitle}
+                        btnValue={'Create'}
+                        setColor={setNewColor}/>
 
             {
                 redirect ? <Redirect to={'/'}/> : null
             }
 
-
-        </form>
-    );
+        </>
+    )
 };
 
 export default Create;
